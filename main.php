@@ -25,16 +25,19 @@ function calculate ($a, $b, $command):mixed{
 }
 
 
-echo calculate (a: 10, b: 5, command: 'add');
+echo calculate (a: 10, b: 5, command: 'add') ."<br>";
 echo "\n";
 
-echo calculate (a: 20, b: 10,command: 'subtract');
+echo calculate (a: 20, b: 10,command: 'subtract') ."<br>";
 echo "\n";
 
 
-echo calculate (a: 5, b: 2, command: 'multiply');
+echo calculate (a: 5, b: 2, command: 'multiply') ."<br>";
 echo "\n";
 
-echo calculate (a: 7, b: 2, command: 'division');
+echo calculate (a: 7, b: 2, command: 'division') ."<br>";
 echo "\n";
+
+$str ="WEBSYSTEMTECHNOLOGIESIT204";
+echo strlen($tr);
 ?>
